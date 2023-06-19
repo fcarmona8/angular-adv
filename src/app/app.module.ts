@@ -7,11 +7,12 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PagesModule } from './pages/pages.module';
 import { AuthModule } from './auth/auth.module';
+import { IncrementadorComponent } from './components/incrementador/incrementador.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NopagefoundComponent
+    NopagefoundComponent,
   ],
   imports: [
     BrowserModule,
